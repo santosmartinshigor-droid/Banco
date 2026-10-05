@@ -1,0 +1,35 @@
+# 1 - Lista de alunos
+alunos = ["Ana", "Pedro"]
+
+alunos.append("Maria")
+alunos.remove("Pedro")
+
+print("Alunos:", alunos)
+
+
+# 2 - Lista de compras
+compras = []
+
+compras.append("Arroz")
+compras.append("Feijão")
+compras.append("Leite")
+
+print("Compras:", compras)
+
+
+# 3 - Números em ordem crescente
+numeros = [10, 4, 7, 2, 9, 1]
+
+numeros.sort()
+
+print("Números:", numeros)
+
+
+# 4 - Cadastrar 5 nomes
+nomes = []
+
+for i in range(5):
+    nome = input("Digite um nome: ")
+    nomes.append(nome)
+
+print("Nomes cadastrados:", nomes)
